@@ -4,33 +4,33 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Rushu is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
-    author: "Sarah Chen",
-    role: "CTO, Tech Innovators Inc.",
+      "As a frontend developer and dedicated learner, she turn designs into polished, accessible interfaces. Her attention to detail and commitment to performance make her work stand out.",
+    author: "Maya Patel",
+    role: "Senior Frontend Engineer, OpenWeb",
     avatar:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
   },
   {
     quote:
-      "Working with Rushu was a game-changer for our project. She delivered ahead of schedule with code quality that set a new standard for our team.",
-    author: "Michael Rodriguez",
-    role: "Product Manager, Digital Solutions",
+      "A motivated student who learns quickly and applies new tools thoughtfully. Her curiosity about React and modern tooling shows in every project she build.",
+    author: "Carlos Nguyen",
+    role: "Course Instructor, Frontend Academy",
     avatar:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
   },
   {
     quote:
-      "Rushu's expertise in React and TypeScript helped us rebuild our entire frontend in record time. Her architectural decisions continue to pay dividends.",
-    author: "Emily Watson",
-    role: "Engineering Lead, StartUp Labs",
+      "She shipped a polished portfolio showcasing responsive layouts, clear component structure, and smooth interactions—exactly the kind of craft we look for in frontend talent.",
+    author: "Jordan Lee",
+    role: "Product Designer, Creative Studio",
     avatar:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
   },
   {
     quote:
-      "Not only is Rushu technically brilliant, but she's also a fantastic communicator and team player. She elevated everyone around her.",
-    author: "David Kim",
-    role: "CEO, Innovation Hub",
+      "Reliable, collaborative, and always improving. As a student and developer she write practical, testable code and contribute positively to every team.",
+    author: "Dev Team",
+    role: "Project Lead",
     avatar:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
   },
