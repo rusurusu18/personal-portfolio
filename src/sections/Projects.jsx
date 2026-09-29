@@ -2,38 +2,38 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "Kisan Sanjal",
+    description:
+      "An agricultural marketplace connecting farmers directly with buyers and consumers, making it easier to sell fresh produce without intermediaries.",
+    image: "/projects/KishanSanjal.png",
+    tags: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS"],
+    link: "#",
+    github: "#",
+  },
+  {
     title: "Trupp",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+      "An online watch e-commerce store designed to showcase and sell watches through a polished shopping experience.",
+    image: null,
+    tags: ["HTML", "CSS", "JavaScript"],
     link: "#",
     github: "#",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Portfolio",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+      "A frontend-only personal portfolio showcasing projects, skills, and contact details with a responsive layout and interactive UI.",
+    image: "/projects/Portfolio.png",
+    tags: ["React", "Vite", "Tailwind CSS", "JavaScript"],
     link: "#",
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "MediCare Clinic Management System",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "A clinic management system designed to support the everyday organization of a healthcare practice.",
+    image: "/projects/MediCare.png",
+    tags: ["React", "Node.js", "MongoDB"],
     link: "#",
     github: "#",
   },
@@ -74,11 +74,13 @@ export const Projects = () => {
             >
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
+                {project.image && (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                )}
                 <div
                   className="absolute inset-0 
                 bg-gradient-to-t from-card via-card/50

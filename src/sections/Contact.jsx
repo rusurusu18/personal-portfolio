@@ -20,8 +20,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+977 9814396087",    
-    href: "tel:+97798143960870",
+    value: "9800000**",
+    href: "#",
   },
   {
     icon: MapPin,

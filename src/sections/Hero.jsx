@@ -59,7 +59,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Frontend Developer
+                MERN Stack Developer
               </span>
             </div>
 
@@ -75,8 +75,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Rushu K.C. — a frontend developer, specializing in
-                React, Next.js, and Tailwind CSS. I build scalable, performant web
+                Hi, I'm Rushu K.C. — a MERN stack developer specializing in
+                React, Node.js, Express, and MongoDB. I build scalable, performant full-stack web
                 applications that users love.
               </p>
             </div>
