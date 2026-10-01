@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/KishanSanjal.png",
     tags: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS"],
     link: "#",
-    github: "#",
+    github: "https://github.com/rusurusu18/kisansanjal",
   },
   {
     title: "Trupp",
@@ -17,7 +17,7 @@ const projects = [
     image: null,
     tags: ["HTML", "CSS", "JavaScript"],
     link: "#",
-    github: "#",
+    github: "https://github.com/rusurusu18/Trupp",
   },
   {
     title: "Portfolio",
@@ -25,17 +25,17 @@ const projects = [
       "A frontend-only personal portfolio showcasing projects, skills, and contact details with a responsive layout and interactive UI.",
     image: "/projects/Portfolio.png",
     tags: ["React", "Vite", "Tailwind CSS", "JavaScript"],
-    link: "#",
-    github: "#",
+    link: "https://personal-portfolio-plum-six-47.vercel.app/",
+    github: "https://github.com/rusurusu18/personal-portfolio",
   },
   {
-    title: "MediCare Clinic Management System",
+    title: "AsterCare Clinic Management System",
     description:
       "A clinic management system designed to support the everyday organization of a healthcare practice.",
-    image: "/projects/MediCare.png",
-    tags: ["React", "Node.js", "MongoDB"],
-    link: "#",
-    github: "#",
+    image: "/projects/AsterCare.png",
+    tags: ["React", "Node.js", "Express", "MySQL", "Tailwind CSS"],
+    link: "https://clinic-management-system-omega-six.vercel.app/",
+    github: "https://github.com/rusurusu18/Clinic-Management-System",
   },
 ];
 
